@@ -2,13 +2,13 @@
   <div class="footer">
     <ul class="links-footer">
       <li class="footer-link">
-        <a href="/">Home</a>
+        <a href="/tast/">Home</a>
       </li>
       <li class="footer-link">
-        <a href="/about.php">About</a>
+        <a href="/task/about.php">About</a>
       </li>
       <li class="footer-link">
-        <a href="/contact.php">Contact</a>
+        <a href="/task/contact.php">Contact</a>
       </li>
     </ul>
   </div>

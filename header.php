@@ -14,13 +14,13 @@
       <ul class="links-header">
         <li class="header-link profile"></li>
         <li class="header-link">
-          <a href="/">Home</a>
+          <a href="/task/">Home</a>
         </li>
         <li class="header-link">
-          <a href="/about.php">About</a>
+          <a href="/task/about.php">About</a>
         </li>
         <li class="header-link">
-          <a href="/contact.php">Contact</a>
+          <a href="/task/contact.php">Contact</a>
         </li>
       </ul>
     </div>
