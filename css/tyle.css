@@ -58,7 +58,10 @@ header {
   background-color: white;
   border-radius: 50%;
 }
-
+.time {
+  margin-left: auto;
+  margin-right: 10px;
+}
 /* main body */
 
 main {
@@ -91,7 +94,7 @@ main {
 
 p {
   color: #555;
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 1.6;
 }
 
@@ -147,23 +150,28 @@ footer p {
 
 /* About body */
 .about-body {
-  display: flex;
-  flex-direction: row;
-  flex: 0 1 40vw 60vw;
-  margin-top: 100px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .about-body .container {
   text-align: center;
-  margin: 0 20vw;
+  padding: 20px;
 }
 
 .contact-body {
-  align-items: center;
-  padding-top: 60px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 .contact-body .container {
-  margin: 0 auto;
   width: 700px;
   height: 700px;
   align-items: center;
