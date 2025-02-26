@@ -45,8 +45,8 @@ localhost/task
 
 ## Images
 
-![Home Page](image.png)
+![Home Page](assets/image.png)
 
-![About Page](image-1.png)
+![About Page](assets/image-1.png)
 
-![Contact Page](image-2.png)
+![Contact Page](assets/image-2.png)
