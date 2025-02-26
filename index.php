@@ -1,38 +1,17 @@
 <?php include "header.php"; ?>
 
-
 <main>
-  <div class="body">
-    <div class="container">
-      <div class="holder">
-        <h1>Lorem</h1>
-        <p class="text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-          aut nobis est! Ad autem eaque eveniet deleniti obcaecati aperiam?
-          adipisicing elit. Magni, ipsam mollitia? Aliquam rem eum
-        </p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="holder">
-        <h1>Lorem</h1>
-        <p class="text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-          aut nobis est! Ad autem eaque eveniet deleniti obcaecati aperiam?
-          suscipit incidunt consectetur cupiditate sint distinctio iure fuga
-          modi inventore. Sunt.
-        </p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="holder">
-        <h1>Lorem</h1>
-        <p class="text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-          aut nobis est! Ad autem eaque eveniet deleniti obcaecati aperiam?
-          Quibusdam sit temporibus porro non praesentium recusandae ipsum
-          earum similique quae. Lorem ipsum dolor sit amet
-        </p>
+  <div class="body2">
+    <div class="container2">
+      <div class="holder2">
+        <h1>Hello <?php echo "$greeting"; ?></h1>
+        <h1><?php echo "I am $name. "; ?>Welcome to my page</h1>
+        <p>About Me</p>
+        <p class="text">Hello! My name is <strong>Cheneba Muche Metuge</strong>. I have a background in <strong>computer
+            science</strong>, and I specialize in <strong>back-end development</strong> using <strong>PHP</strong>. I am
+          passionate about building efficient and scalable web applications that enhance user experiences. In my free
+          time, I enjoy <strong>reading</strong>, which helps me stay updated with the latest trends in technology and
+          develop my skills further.</p>
       </div>
     </div>
   </div>
