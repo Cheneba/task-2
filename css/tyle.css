@@ -46,12 +46,13 @@ header {
   height: fit-content;
   width: fit-content;
   padding: 0 1%;
-  padding-top: 30px;
+  padding-top: 8px;
 }
 .profile {
-  width: 5px;
-  height: 5px;
-  padding: 40px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -8px;
   margin-left: 10px;
   margin-right: 20px;
   background-color: white;
@@ -64,7 +65,6 @@ main {
   height: fit-content;
   width: 70vw;
   margin: 0 auto;
-  margin-top: 300px;
 }
 .body2 {
   padding: 20px;
@@ -73,7 +73,6 @@ main {
   border-radius: 8px;
   max-width: 800px;
   margin: 0 20%;
-  margin-top: 200px;
 }
 
 .container2 {
@@ -87,7 +86,6 @@ main {
 .holder2 h1 {
   color: #333;
   margin-bottom: 10px;
-  margin-top: 200px;
   font-size: 2.5em;
 }
 
@@ -105,22 +103,49 @@ p {
 strong {
   color: #007bff; /* Bootstrap primary color for emphasis */
 }
+/* Footer */
 
 footer {
-  position: fixed;
-  bottom: 0;
   width: 100vw;
-  height: fit-content;
+  background-color: rgb(189, 184, 184);
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.footer {
+  width: 93%;
+  margin: 0 auto;
   text-align: center;
-  background-color: rgb(66, 66, 110);
-  padding: 0;
+}
+
+.links-footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
 }
 
 .footer-link {
-  padding: 0 1%;
-  padding-top: 30px;
+  margin: 0 15px;
 }
 
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* About body */
 .about-body {
   display: flex;
   flex-direction: row;
