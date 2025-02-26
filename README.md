@@ -29,11 +29,11 @@ This is a PHP based project where in I have made the 3 included pages, that is, 
 
 # Get the project
 
-git clone https://github.com/Cheneba/task2.git
+git clone https://github.com/Cheneba/task-2.git
 
 # Move task directory to htdocs
 
-mv ./task2 /opt/lampp/htdocs/task
+mv ./task-2 /opt/lampp/htdocs/task
 
 # Start your server
 
